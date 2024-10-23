@@ -7,7 +7,7 @@ public:
     string marque, modele;
     int annee, kilometrage, vitesse ;
 
-    Voiture() : marque("any"), modele("any"), annee(2000), kilometrage(0), vitesse(100) {}
+    Voiture() : marque("any"), modele("anym"), annee(2000), kilometrage(0), vitesse(100) {}
 
 
     Voiture(const string& marque, const string& modele, int annee, int kilometrage, int vitesse) :
